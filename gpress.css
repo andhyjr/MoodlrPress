@@ -1,4 +1,29 @@
 /* =========================
+   PRIORITY
+   ========================= */
+.main-navigation, .main-navigation ul ul {
+		background: transparent !important;
+}
+
+.site-header, .inside-navigation .main-nav #menu-header, .inside-navigation .main-nav #menu-header li a {
+    background: transparent;
+}
+
+
+.site-footer .site-info {
+	background: #000000 !important;
+	background: -webkit-linear-gradient(to top, #434343, #000000) !important;
+	background: linear-gradient(to top, #434343, #000000) !important;
+}
+
+.menu-toggle {
+	background: #fff !important;
+	border-radius: 5px !important;
+	padding: 0px 13px !important;
+	line-height: 40px !important;
+}
+
+/* =========================
    HEADER / NAV
    ========================= */
 .site-header,
@@ -9,7 +34,6 @@
 .inside-navigation .main-nav #menu-header li a{
   display:block; color:#fff;
 }
-.menu-toggle	{ border-radius: 5px !important; padding: 0px 13px !important;	line-height: 40px !important; }
 .featured-image.page-header-image-single{ display:none; }
 
 /* =========================
