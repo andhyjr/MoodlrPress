@@ -9,7 +9,6 @@
     background: transparent !important;;
 }
 
-
 .site-footer .site-info {
 	background: #000000 !important;
 	background: -webkit-linear-gradient(to top, #434343, #000000) !important;
@@ -26,11 +25,6 @@
 /* =========================
    HEADER / NAV
    ========================= */
-.site-header,
-.inside-navigation .main-nav #menu-header,
-.inside-navigation .main-nav #menu-header li a{
-  background: linear-gradient(90deg, var(--contrast) 0%, var(--contrast) 50%, var(--contrast) 100%);
-}
 .inside-navigation .main-nav #menu-header li a{
   display:block; color:#fff;
 }
