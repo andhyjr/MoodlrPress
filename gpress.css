@@ -681,6 +681,15 @@ body.author .entry-meta .tags-links {
 	display: none;
 }
 
+body.tag .cat-links a{
+  background:var(--accent); color:#fff !important; font-weight:700; font-size:.75rem;
+  padding:.28rem .55rem; border-radius:8px; display:inline-block; white-space:nowrap;
+}
+
+body.tag .entry-meta .tags-links {
+	display: none;
+}
+
 /* ===== /category/ – badge da categoria ===== */
 
 body.category .page-header .page-title {
