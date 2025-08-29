@@ -6,7 +6,7 @@
 }
 
 .site-header, .inside-navigation .main-nav #menu-header, .inside-navigation .main-nav #menu-header li a {
-    background: transparent;
+    background: transparent !important;;
 }
 
 
